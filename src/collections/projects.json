@@ -1,20 +1,20 @@
 [
 	{
-		"name": "Email.ML",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/email.ml.png",
-		"url": "https://email.ml"
+		"name": "Peternak Web",
+		"description": "Programming learning website based on video tutorials.",
+		"image": "/assets/images/projects/peternakweb.png",
+		"url": "https://github.com/Web-1-RPLA/4602-tubes-peternak-web"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
+		"name": "MyLaundry",
+		"description": "Mobile Application for Laundry Service and management.",
+		"image": "/assets/images/projects/mylaundry.jpg",
+		"url": "https://github.com/mhdanandaa/MyLaundry"
 	},
 	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "KomponenUI",
+		"description": "Layout and design UI Kits for web development.",
+		"image": "/assets/images/projects/komponenui.png",
+		"url": "https://najibrobbani74.github.io/komponen-ui"
 	}
 ]

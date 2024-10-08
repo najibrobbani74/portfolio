@@ -16,7 +16,7 @@ const { logo, dates, role, company, description } = Astro.props;
   </p>
   <h3 class="my-1 text-lg font-bold dark:text-neutral-100">{role}</h3>
   <p class="mb-1 text-sm font-medium dark:text-neutral-300">{company}</p>
-  <p class="text-sm font-light text-neutral-600 dark:text-neutral-400">
-    {description}
-  </p>
+  <div class="text-sm font-light text-neutral-600 dark:text-neutral-400" >
+    <Fragment set:html={description}/>
+  </div>
 </div>

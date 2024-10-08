@@ -1,16 +1,25 @@
 ---
 import experiences from "../collections/experiences.json";
 import AboutExperience from "../components/about-experience.astro";
+import Button from "../components/button.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+// import portfoliopdf from "./pdf-output/najibrobbani74148.html"
+import { LinkPreview } from 'astro-embed';
+
 ---
 
 <Layout title="About Me">
+  <!-- {portfoliopdf} -->
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Nanjing, China. I'm passionate about building new products and learning new technology."
+      description="Hello 👋. let me introduce myself i am Muhammad Najib Robbani.  a Software engineer from Indonesia. I'm passionate about building new products and learning new technology."
     />
+
+    <div class="my-5">
+      <Button text="View Resume" link="https://resume.showwcase.com/najibrobbani74148.pdf" />
+    </div>
 
     <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
 
@@ -18,7 +27,7 @@ import Layout from "../layouts/main.astro";
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
+    Hello, I am Muhammad Najib Robbani, a dedicated and passionate web programmer with a strong background in full-stack development. With a deep-rooted love for coding and problem-solving, I have honed my skills to create efficient and user-friendly web solutions. My journey in web programming has equipped me with a wealth of experience in both front-end and back-end development.
     </p>
 
     <h2
@@ -61,10 +70,10 @@ import Layout from "../layouts/main.astro";
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
       If you want to stay up to date with my work be sure to <a
-        href="https://twitter.com/ccikai"
+        href="https://www.linkedin.com/in/najibrobbani/"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
+        class="text-indigo-600 underline">follow me on LinkedIn</a
+      >, or you can send me an <a href="mailto:najibrobbani74@gmail.com" class="text-indigo-600 underline"
         >email</a
       > and I'll be sure to get back to you.
     </p>
